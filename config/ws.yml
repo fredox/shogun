@@ -1,0 +1,20 @@
+ws-envs:
+  dev:
+    base-path: ''
+  pre:
+    base-path: ''
+create-post:
+  slug: 'blog/post'
+  method: 'POST'
+  headers:
+    Content-type: 'application/vnd.api+json; charset=utf-8'
+    user: 'alfredo.galiana'
+  save-response: true
+  save-response-in: 'output.log'
+create-comment:
+  slug: 'blog/post/comment'
+  method: 'POST'
+  headers:
+    Content-type: 'application/vnd.api+json; charset=utf-8'
+  save-response: false
+  save-response-in: 'output.log'

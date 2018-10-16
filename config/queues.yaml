@@ -1,0 +1,19 @@
+
+queue-envs:
+  dev:
+    host:
+    port:
+    user: ""
+    pass: ""
+    vhost: "/dev"
+  pre:
+    host:
+    port:
+    user: ""
+    pass: ""
+    vhost: "/pre"
+
+queues:
+  event:
+    name: "queue-event-name"
+    description: ""
